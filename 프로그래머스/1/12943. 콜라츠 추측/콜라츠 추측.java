@@ -1,5 +1,5 @@
 class Solution {
-    public int solution(int num) {
+    public int solution(long num) {
         int repeat = 0;
         
         if (num==1){
@@ -7,7 +7,7 @@ class Solution {
         }
         
         while (num != 1){
-            if(repeat>=400){
+            if(repeat>=500){
                 return -1;
             }
             if(num%2==0){
